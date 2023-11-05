@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrap {
+        overflow: hidden;
+        /* // 新的BFC */
+        /* 可以看到上面几个案例，
+        都体现了BFC实际就是页面一个独立的容器，
+        里面的子元素不影响外面的元素 */
+      }
+      p {
+        color: #f55;
+        background: #fcc;
+        width: 200px;
+        line-height: 100px;
+        text-align: center;
+        margin: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Haha</p>
+    <div class="wrap">
+      <p>Hehe</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "koa-jwt": "^4.0.4",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.0.1",
+    "qs": "^6.11.2"
+  }
+}
